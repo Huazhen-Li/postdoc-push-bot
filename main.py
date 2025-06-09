@@ -2,8 +2,8 @@ import os, json
 from flask import Flask, request
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = "7347019252:AAEHLMczv6VtVELaqQ3-46MKwb9GE7mOutE"
+CHAT_ID = “7368261029”
 STATE_FILE = "state.json"
 
 app = Flask(__name__)
