@@ -1,0 +1,7 @@
+app = "postdoc-push-bot"
+primary_region = "lhr"
+[env]
+  TZ = "Europe/London"
+[[mounts]]
+  source = "bot_data"
+  destination = "/app"
